@@ -22,3 +22,7 @@ First I converted vcf file to phylip with the help of vcf2phylip script
 
 python vcf2phylip.py --input ../../../../../trop_WGS_vcf_files_2023/trop_WGS_no_cal_mello_niger_all_chrs.vcf.recode.vcf.gz
 ```
+after selecting mest fit model, I ran iqtree 
+```
+/Users/Tharindu/Downloads/iqtree-2.2.2.6-MacOSX/bin/iqtree2 -s ./trop_WGS_no_cal_mello_niger_all_chrs.min4.phy -m TVM+F+R6 -B 1000
+```
