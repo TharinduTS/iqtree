@@ -574,9 +574,9 @@ it gave me the best fit model
 
 Best-fit model: TPM2u+F+I+G4 chosen according to BIC
 
-THIS also gives me the tree
+This also gives me the tree
 
-after selecting mest fit model, I ran iqtree 
+after selecting mest fit model, I ran iqtree for 1000 bootstrap
 ```
 ../iqtree-2.4.0-Linux-intel/bin/iqtree2 -s XT_XM_XC_denovo_MtDNA_no_Dloop.nxs -m TPM2u+F+I+G4 -B 1000
 ```
