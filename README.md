@@ -560,10 +560,10 @@ Then selected best fit model
 
 ../iqtree-2.4.0-Linux-intel/bin/iqtree2 -s trop_only_allchrs_concat_maxmissingcount_0_biallelic_genoqual30.min4.phy -m MFP
 ```
-
-after selecting mest fit model, I ran iqtree 
+Best-fit model: TVM+F+I+R10 chosen according to BIC
+after selecting best fit model, made a seperate directory for bootstrap and I ran iqtree 
 ```
-/Users/Tharindu/Downloads/iqtree-2.2.2.6-MacOSX/bin/iqtree2 -s ./trop_WGS_no_cal_mello_niger_all_chrs.min4.phy -m TVM+F+R6 -B 1000
+../../iqtree-2.4.0-Linux-intel/bin/iqtree2 -s ../trop_only_allchrs_concat_maxmissingcount_0_biallelic_genoqual30.min4.phy -m TVM+F+I+R10 -B 1000
 ```
 
 #****************** mtDNA *********************
